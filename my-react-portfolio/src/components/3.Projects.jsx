@@ -61,6 +61,9 @@ const Heading2 = styled.h2`
 `;
 
 const Img = styled.img`
+  border-width: 0px 0px 10px 10px;
+  border-style: solid;
+  border-color: #0b24f5;
   width: 100%;
   height: 200px;
   object-fit: cover;

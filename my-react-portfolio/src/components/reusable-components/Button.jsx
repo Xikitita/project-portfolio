@@ -18,6 +18,7 @@ export const Button = ({ netlifyLink, githubLink }) => {
 const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 10px;
 `;
 
 const Link = styled.a`
