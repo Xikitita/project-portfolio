@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import vector1 from "../assets/vector1.svg";
 
 export const Introduction = () => {
   return (
@@ -17,7 +16,6 @@ export const Introduction = () => {
             augue semper porta. Mauris massa.
           </Text>
         </section>
-        <Arrow src={vector1} alt="Arrow image" />
       </TopSection>
     </>
   );
@@ -51,7 +49,7 @@ const Heading1 = styled.h1`
 `;
 
 const Heading2 = styled.h2`
-  color: #0b24f5;
+  color: #000;
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 700;

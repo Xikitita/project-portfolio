@@ -22,9 +22,9 @@ export const Projects = () => {
                 <p>Oops... no image available</p>
               </NoImage>
             )}
+            <Tags tags={project.tags} />
             <Title>{project.name}</Title>
             <Text>{project.text}</Text>
-            <Tags tags={project.tags} />
             <Button netlifyLink={project.netlify} githubLink={project.github} />
           </ProjectsContainer>
         ))}
@@ -35,12 +35,10 @@ export const Projects = () => {
 
 const ColumnLayout = styled.div`
   width: 343px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 64px;
-  margin: auto;
   display: grid;
   place-items: center;
+  gap: 64px;
+  margin: auto;
 `;
 
 const ProjectsContainer = styled.section`
@@ -50,8 +48,9 @@ const ProjectsContainer = styled.section`
   gap: 24px;
   align-self: stretch;
 `;
+
 const Heading2 = styled.h2`
-  color: #0b24f5;
+  color: #000;
   text-align: center;
   font-family: Montserrat;
   font-size: 56px;
@@ -61,9 +60,13 @@ const Heading2 = styled.h2`
 `;
 
 const Img = styled.img`
-  width: 100%;
-  height: 200px;
+  border-radius: 12px;
+  border: 1px solid;
+  width: 95%;
+  height: 300px;
+  margin: auto;
   object-fit: cover;
+  object-position: top;
 `;
 
 const Title = styled.h3`
@@ -72,9 +75,9 @@ const Title = styled.h3`
   font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 16px;
-  line-height: normal;
+  margin-bottom: -20px;
 `;
 
 const Text = styled.p`
@@ -85,9 +88,9 @@ const Text = styled.p`
   font-style: normal;
   font-weight: 400;
   padding: 0 16px;
-  line-height: normal;
 `;
 
 const NoImage = styled.span`
   font-style: italic;
+  margin-left: 16px;
 `;
