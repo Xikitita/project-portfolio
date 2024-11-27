@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import livedemo from "../../assets/Live-Demo-Button.svg";
-import viewcode from "../../assets/View-Code-Button.svg";
+import livedemo from "../../assets/Live-Demo.png";
+import viewcode from "../../assets/View-Code.png";
 
 export const Button = ({ netlifyLink, githubLink }) => {
   return (
@@ -19,6 +19,7 @@ const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: auto;
 `;
 
 const Link = styled.a`

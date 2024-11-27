@@ -18,8 +18,9 @@ const TagsContainer = styled.div`
 `;
 
 const TagItem = styled.div`
-  color: #fff;
-  background-color: black;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 3px;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;

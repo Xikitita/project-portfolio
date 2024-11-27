@@ -6,18 +6,15 @@ export const Tech = () => {
       <Container>
         <Heading2>Tech</Heading2>
         <Text>
-          React Hooks, React, Node.js, Express.js, MongoDB, Mongoose, APIs,
-          Styled-Components, ES6, JavaScript, NPM, Git, GitHub, Web
-          Accessibility, Flexbox, JSX, CSS, HTML, mob-programming,
-          pair-programming
+      JavaScript, ES6, React, React Hooks, Node.js, Express.js, MongoDB, Mongoose, APIs, Git, GitHub, CSS, HTML, Styled-Components, Flexbox, JSX, Web Accessibility, NPM 
         </Text>
       </Container>
     </div>
-  );
+  ); 
 };
 
 const Container = styled.section`
-  background: #0b24f5;
+  background: #000;
   color: #ffffff;
   width: 343px;
   height: 460px;
@@ -40,7 +37,7 @@ const Text = styled.p`
   font-size: 16px;
   font-weight: 600;
   line-height: 38.42px;
-  text-align: left;
+  text-align: center;
   padding: 0 16px;
   margin: auto;
 `;
