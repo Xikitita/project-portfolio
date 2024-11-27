@@ -1,27 +1,117 @@
 {
   "projects": [
     {
-      "name": "Chatbot",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "name": "The solar system travel guide",
+      "text": "As a three-member team at the Technigo Web Developer Bootcamp, we created an expandable application with a robust backend and structured API. Using NPM packages and React Hooks, we implemented dynamic features and optimized functionality. Our design prioritizes readability and accessibility through thoughtful color choices and user-focused interactions. The app supports keyboard navigation and includes engaging features to spark curiosity and enhance the user experience.",
+      "image": "./solar-system.png",
       "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
-      "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
+        "React",
+        "Node",
+        "MongoDB",
         "HTML5",
         "CSS3",
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://thesolarsystemtravelguide.netlify.app/",
+      "github": "https://github.com/Lovisaaberg/project-final"
+    },
+    {
+      "name": "Project Auth",
+      "text": "A small team project to develop a frontend and backend system for user authentication and authorization, using a login method to securely manage user access.",
+      "image": "./project-auth.png",
+      "tags": [
+        "React",
+        "Node",
+        "MongoDB",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify": "https://clever-scone-066fd8.netlify.app/",
+      "github": "https://github.com/Xikitita/project-auth"
+    },
+    {
+      "name": "Happy Thoughts API",
+      "text": "In this project, I used MongoDB to store data and set up Express endpoints to fetch it. I also created POST endpoints that allow users to send data to the API, enabling the application to save new objects directly into the MongoDB database.",
+      "image": "./happy-thoughts-api.png",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "HTML5",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify": "https://taupe-malabi-4096a4.netlify.app/",
+      "github": "https://github.com/Xikitita/project-happy-thoughts-api"
+    },
+    {
+      "name": "Happy Thoughts - a Post & Fetch comment feed",
+      "text": "In this comment feed project, I implemented the useEffect hook in React to manage component lifecycles and handle side effects. I worked with APIs to fetch and post data, ensuring seamless data interaction. I also used Postman to test and validate API endpoints during development.",
+      "image": "./happy-thoughts-api.png",
+      "tags": ["React", "HTML5", "CSS3", "JavaScript", "APIs"],
+      "netlify": "https://taupe-malabi-4096a4.netlify.app/",
+      "github": "https://github.com/Xikitita/project-happy-thoughts-api"
+    },
+    {
+      "name": "Labyrinth game",
+      "text": "A maze navigation project, where I built an interface that allows users to navigate a maze through a text-based adventure provided by an API. I used Zustand for global state management to store and manage the data from the API, focusing on integrating the API and handling state across the application.",
+      "image": "./zustand-labyrinth.png",
+      "tags": ["React", "React Zustand", "HTML5", "CSS3", "JavaScript", "APIs"],
+      "netlify": "https://stunning-capybara-d73e5e.netlify.app/",
+      "github": "https://github.com/Xikitita/project-labyrinth-zustand-vite"
+    },
+    {
+      "name": "To-Do List",
+      "text": "A task management app using React with useContext for state management. The app allows users to add tasks and mark them as done, while managing the application state.",
+      "image": "./todo-app.png",
+      "tags": ["React", "React Context", "HTML5", "CSS3", "JavaScript"],
+      "netlify": "https://strong-dieffenbachia-1c1d08.netlify.app/",
+      "github": "https://github.com/Xikitita/project-todos-context-vite"
+    },
+    {
+      "name": "Design handoff - a collaboration project with a UX designer student",
+      "text": "Working as a two-member team, we collaborated with a UX designer to implement a design handoff. We transformed her design into a functional, responsive interface using a CSS library to streamline styling and ensure consistency.",
+      "image": "./design-handoff.png",
+      "tags": ["React", "Styled-Components", "HTML5", "CSS3", "JavaScript"],
+      "netlify": "https://monumental-banoffee-da2acb.netlify.app/",
+      "github": "https://github.com/Xikitita/project-design-handoff-vite"
+    },
+    {
+      "name": "Multi-page Movie site",
+      "text": "A pair project where we built a multi-page site using React Router to fetch a list of movies from an API and display them in the UI. The site allows users to navigate between pages and view movie details dynamically.",
+      "image": "./movies-site.png",
+      "tags": ["React", "React Router", "HTML5", "CSS3", "JavaScript", "APIs"],
+      "netlify": "https://classy-madeleine-9259db.netlify.app/",
+      "github": "https://github.com/Tejpex/project-movies-vite"
+    },
+    {
+      "name": "Weather app",
+      "text": "This project is a live-updating weather forecast for Stockholm, Sweden. Using JavaScript and data fetched from an API, I implemented a feature to display a five-day weather forecast, with the design dynamically changing to reflect the current weather conditions.",
+      "image": "./weather-app.jpg",
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
+      "netlify": "https://idyllic-maamoul-97c14d.netlify.app/",
+      "github": "https://github.com/Xikitita/project-weather-app"
+    },
+
+    {
+      "name": "Chatbot",
+      "text": "This is a chatbot interface using JavaScript. The chatbot interacts with users by asking questions, displaying messages, and responding accurately.",
+      "image": "./chatbot.png",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "netlify": "https://soft-puppy-7282f0.netlify.app/",
+      "github": "https://github.com/Xikitita/project-chatbot"
+    },
+    {
+      "name": "JavaScript Pizzeria",
+      "text": "A simple interactive page to place a food order, focusing on mastering core JavaScript concepts like variables, conditionals, and native methods.",
+      "image": "./js-pizzeria.png",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "netlify": "https://astonishing-fairy-8757c0.netlify.app/",
+      "github": "https://github.com/Xikitita/project-pizza"
     }
   ]
 }
