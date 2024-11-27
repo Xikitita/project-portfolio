@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { projects } from "../../../projects.json";
+import { projects } from "../../projects.json";
 import { Tags } from "../components/reusable-components/Tags";
 import { Button } from "../components/reusable-components/Button";
 
