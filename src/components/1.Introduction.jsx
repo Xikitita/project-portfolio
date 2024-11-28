@@ -1,38 +1,37 @@
 import styled from "styled-components";
+import profileImg from "../assets/demo-profile-pic.jpg";
 
 export const Introduction = () => {
   return (
     <>
       <TopSection>
-        <section>
-          <Heading1>Hi, I&apos;m Alexandra Franzén</Heading1>
-          <Heading2>Frontend Developer</Heading2>
-          <Text>
-            I&apos;m a Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-            Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-            Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-            massa. Vestibulum lacinia arcu eget nulla. Fusce nec tellus sed
-            augue semper porta. Mauris massa.
-          </Text>
-        </section>
+        <ProfileImg src={profileImg} alt="Profile picture" />
+        <Heading1>Hi, I&apos;m Alexandra Franzén</Heading1>
+        <Heading2>Web Developer</Heading2>
+        <Text>
+          And a team player with a positive mindset, a problem-solving approach, and
+          a passion for learning. I enjoy exploring new technologies and
+          contributing to impactful, collaborative projects.
+        </Text>
       </TopSection>
     </>
   );
 };
-{
-  /* <img src={}
-alt="Profile picture"/> */
-}
 
 const TopSection = styled.div`
   width: 343px;
   height: 460px;
   margin-top: 64px;
- margin: auto;
-  /* Grid layout for centering */
-  display: grid;
-  place-items: center;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+`;
+
+const ProfileImg = styled.img`
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
 `;
 
 const Heading1 = styled.h1`
@@ -41,36 +40,24 @@ const Heading1 = styled.h1`
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 21, 94px;
   width: 343px;
-  height: 22px;
-  gap: 0px;
-  opacity: 0px;
 `;
 
 const Heading2 = styled.h2`
   color: #000;
   font-family: Montserrat;
-  font-size: 32px;
+  font-size: 31px;
   font-weight: 700;
-  line-height: 39.01px;
+  line-height: 5px;
   text-align: left;
-  margin-left: 16px;
 `;
 
 const Text = styled.p`
   font-family: Hind;
   font-size: 16px;
   font-weight: 400;
-  line-height: 28.82px;
   text-align: left;
   width: 343px;
   height: 203px;
-  margin-left: 16px;
-`;
-
-const Arrow = styled.img`
-  width: 100%;
-  height: 30px;
-  margin-top: 33px;
+  margin: auto;
 `;

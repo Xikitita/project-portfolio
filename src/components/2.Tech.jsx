@@ -7,7 +7,9 @@ export const Tech = () => {
         <Heading2>Tech</Heading2>
         <Text>
       JavaScript, ES6, React, React Hooks, Node.js, Express.js, MongoDB, Mongoose, APIs, Git, GitHub, CSS, HTML, Styled-Components, Flexbox, JSX, Web Accessibility, NPM 
-        </Text>
+       <br></br>
+       <br></br>
+       Currently learning: TypeScript </Text>
       </Container>
     </div>
   ); 
@@ -37,7 +39,7 @@ const Text = styled.p`
   font-size: 16px;
   font-weight: 600;
   line-height: 38.42px;
-  text-align: center;
+  text-align: left;
   padding: 0 16px;
   margin: auto;
 `;
