@@ -6,13 +6,16 @@ export const Tech = () => {
       <Container>
         <Heading2>Tech</Heading2>
         <Text>
-      JavaScript, ES6, React, React Hooks, Node.js, Express.js, MongoDB, Mongoose, APIs, Git, GitHub, CSS, HTML, Styled-Components, Flexbox, JSX, Web Accessibility, NPM 
-       <br></br>
-       <br></br>
-       Currently learning: TypeScript </Text>
+          JavaScript, ES6, React, React Hooks, Node.js, Express.js, MongoDB,
+          Mongoose, APIs, Git, GitHub, CSS, HTML, Styled-Components, Flexbox,
+          JSX, Web Accessibility, NPM
+          <br></br>
+          <br></br>
+          Currently learning: TypeScript{" "}
+        </Text>
       </Container>
     </div>
-  ); 
+  );
 };
 
 const Container = styled.section`
@@ -23,6 +26,12 @@ const Container = styled.section`
   margin: auto;
   display: grid;
   place-items: center;
+
+  @media (min-width: 668px) {
+    width: 744px;
+    height: 627px;
+    margin-bottom: 100px;
+  }
 `;
 
 const Heading2 = styled.h2`
@@ -42,4 +51,11 @@ const Text = styled.p`
   text-align: left;
   padding: 0 16px;
   margin: auto;
+
+  @media (min-width: 668px) {
+    font-size: 24px;
+    text-align: center;
+    width: 680px;
+    height: 284px;
+  }
 `;
