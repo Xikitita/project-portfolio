@@ -5,12 +5,20 @@ import viewcode from "../../assets/View-Code.png";
 export const Button = ({ netlifyLink, githubLink }) => {
   return (
     <ButtonContainer>
-      <Link href={netlifyLink} target="_blank" rel="noopener noreferrer">
+      <StyledLink
+        href={netlifyLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Live demo in a new tab">
         <img src={livedemo} alt="Live Demo Button" />
-      </Link>
-      <Link href={githubLink} target="_blank" rel="noopener noreferrer">
+      </StyledLink>
+      <StyledLink
+        href={githubLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View source code on GitHub in a new tab">
         <img src={viewcode} alt="View Code Button" />
-      </Link>
+      </StyledLink>
     </ButtonContainer>
   );
 };
@@ -29,10 +37,20 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const Link = styled.a`
+const StyledLink = styled.a`
   display: flex;
   padding-right: 16px;
   align-items: center;
   gap: 7px;
-  text-decoration: none; /* Removes the underline from the links */
+  text-decoration: none;
+
+  img {
+    max-width: 100%; /* Ensure the images scale properly */
+    height: auto;
+
+    &:focus {
+      outline: 2px solid #005fcc; /* Visible focus indicator */
+      border-radius: 12px;
+    }
+  }
 `;
