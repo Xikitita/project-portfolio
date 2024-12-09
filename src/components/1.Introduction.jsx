@@ -88,7 +88,7 @@ const Heading2 = styled.h2`
 `;
 
 const Text = styled.p`
-  color: black;
+  color: #000000;
   font-family: Hind;
   font-size: 16px;
   font-weight: 400;
