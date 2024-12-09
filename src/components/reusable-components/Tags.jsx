@@ -4,7 +4,9 @@ export const Tags = ({ tags }) => {
   return (
     <TagsContainer>
       {tags.map((tag, index) => (
-        <TagItem key={index}>{tag}</TagItem>
+        <TagItem key={index}
+        aria-label={`Filter by ${tag}`}>
+          {tag}</TagItem>
       ))}
     </TagsContainer>
   );
@@ -17,7 +19,7 @@ const TagsContainer = styled.div`
   padding: 0 16px;
 `;
 
-const TagItem = styled.div`
+const TagItem = styled.span`
   color: #000;
   border: 1px solid black;
   border-radius: 3px;

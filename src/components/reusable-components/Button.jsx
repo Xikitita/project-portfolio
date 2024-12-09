@@ -10,14 +10,14 @@ export const Button = ({ netlifyLink, githubLink }) => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Open Live demo in a new tab">
-        <img src={livedemo} alt="Live Demo Button" />
+        <img src={livedemo} alt="Live Demo Button" tabIndex="0" />
       </StyledLink>
-      <StyledLink 
-      href={githubLink} 
-      target="_blank" 
-      rel="noopener noreferrer"
-      aria-label="View source code on GitHub in a new tab">
-        <img src={viewcode} alt="View Code Button" />
+      <StyledLink
+        href={githubLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View source code on GitHub in a new tab">
+        <img src={viewcode} alt="View code button" tabIndex="0" />
       </StyledLink>
     </ButtonContainer>
   );
@@ -44,14 +44,14 @@ const StyledLink = styled.a`
   gap: 7px;
   text-decoration: none;
 
-  &:focus {
-    outline: 2px solid #005fcc; /* Visible focus indicator */
-    border-radius: 12px;
-    width: 265px;
-  }
-
   img {
     max-width: 100%; /* Ensure the images scale properly */
     height: auto;
+    border-radius: 4px;
+
+    &:focus {
+      outline: 2px solid #005fcc; /* Visible focus indicator */
+      border-radius: 12px; /* Matches visual design */
+    }
   }
 `;

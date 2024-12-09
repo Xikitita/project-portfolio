@@ -3,14 +3,13 @@ import styled from "styled-components";
 export const Tech = () => {
   return (
     <div>
-      <Container>
+      <Container aria-label="Technologies I work with">
         <Heading2>Tech</Heading2>
         <Text>
           JavaScript, ES6, React, React Hooks, Node.js, Express.js, MongoDB,
           Mongoose, APIs, Git, GitHub, CSS, HTML, Styled-Components, Flexbox,
           JSX, Web Accessibility, NPM
-          <br></br>
-          <br></br>
+          <Spacer />
           Upcoming: TypeScript
         </Text>
       </Container>
@@ -56,5 +55,13 @@ const Text = styled.p`
     text-align: center;
     width: 680px;
     height: 284px;
+  }
+`;
+
+const Spacer = styled.div`
+  height: 16px;
+
+  @media (min-width: 668px) {
+    height: 24px;
   }
 `;

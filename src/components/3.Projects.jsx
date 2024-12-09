@@ -5,10 +5,8 @@ import { Button } from "../components/reusable-components/Button";
 
 export const Projects = () => {
   return (
-    <div>
-      <Heading2>
-        Featured Projects
-      </Heading2>
+    <section aria-labelledby="featured-projects-heading">
+      <Heading2>Featured Projects</Heading2>
       <ColumnLayout>
         {projects.map((project, index) => (
           <ProjectsContainer key={index}>
@@ -30,53 +28,39 @@ export const Projects = () => {
           </ProjectsContainer>
         ))}
       </ColumnLayout>
-    </div>
+    </section>
   );
 };
 
 const ColumnLayout = styled.div`
-  width: 343px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 64px;
   margin: auto;
-  overflow: hidden;
 
   @media (min-width: 668px) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 680;
     gap: 100px;
   }
 `;
 
-const ProjectsContainer = styled.section`
+const ProjectsContainer = styled.article`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 24px;
-  align-self: stretch;
 `;
 
 const Heading2 = styled.h2`
   color: #000;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 56px;
-  font-style: normal;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 66px;
-  width: 80%;
-  margin: auto;
-  padding-bottom: 64px;
-  padding-top: 64px;
+  margin-bottom: 32px;
 
-  
   @media (min-width: 668px) {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 16px;
+    font-size: 56px;
+    text-align: left;
+    margin-left: 16px;
   }
 `;
 

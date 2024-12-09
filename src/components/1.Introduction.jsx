@@ -19,7 +19,7 @@ export const Introduction = () => {
   );
 };
 
-const TopSection = styled.div`
+const TopSection = styled.section`
   width: 343px;
   height: 460px;
   margin-top: 64px;
