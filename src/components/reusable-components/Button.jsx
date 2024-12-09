@@ -20,6 +20,13 @@ const ButtonContainer = styled.div`
   flex-direction: column;
   gap: 10px;
   margin: auto;
+
+  @media (min-width: 668px) {
+    width: 100%;
+    margin-left: 16px;
+    display: flex;
+    justify-content: flex-start;
+  }
 `;
 
 const Link = styled.a`

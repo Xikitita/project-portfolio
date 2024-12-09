@@ -35,12 +35,17 @@ export const Footer = () => {
 };
 
 const FooterSection = styled.div`
-  width: 343px;
+  width: 100%;
   height: 460px;
   margin-top: 84px;
   display: flex;
   flex-direction: column;
   gap: 34px;
+
+  @media (min-width: 668px) {
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 const ProfileImg = styled.img`
@@ -65,8 +70,13 @@ const Heading2 = styled.h2`
   font-size: 18px;
   font-style: normal;
   font-weight: 760;
-  width: 343px;
+  width: 100%;
   text-align: center;
+
+  @media (min-width: 668px) {
+    
+    justify-content: center;
+  }
 `;
 
 const EmailLink = styled.a`
@@ -78,7 +88,7 @@ const EmailLink = styled.a`
   width: 343px;
   text-align: center;
 
-    &:hover {
+  &:hover {
     text-decoration: underline;
   }
 `;

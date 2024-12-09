@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <div>
       <Heading2>
-        Featured <br></br>Projects
+        Featured Projects
       </Heading2>
       <ColumnLayout>
         {projects.map((project, index) => (
@@ -22,6 +22,7 @@ export const Projects = () => {
                 <p>Oops... no image available</p>
               </NoImage>
             )}
+
             <Tags tags={project.tags} />
             <Title>{project.name}</Title>
             <Text>{project.text}</Text>
@@ -39,6 +40,15 @@ const ColumnLayout = styled.div`
   place-items: center;
   gap: 64px;
   margin: auto;
+  overflow: hidden;
+
+  @media (min-width: 668px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 680;
+    gap: 100px;
+  }
 `;
 
 const ProjectsContainer = styled.section`
@@ -57,16 +67,28 @@ const Heading2 = styled.h2`
   font-style: normal;
   font-weight: 700;
   line-height: 66px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 64px;
+  padding-top: 64px;
+
+  
+  @media (min-width: 668px) {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 16px;
+  }
 `;
 
 const Img = styled.img`
   border-radius: 12px;
   border: 1px solid;
   width: 95%;
+  max-width: 680px;
   height: 300px;
-  margin: auto;
   object-fit: cover;
   object-position: top;
+  margin-left: 16px;
 `;
 
 const Title = styled.h3`

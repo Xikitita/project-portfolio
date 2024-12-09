@@ -11,7 +11,7 @@ export const Tech = () => {
           JSX, Web Accessibility, NPM
           <br></br>
           <br></br>
-          Currently learning: TypeScript{" "}
+          Upcoming: TypeScript
         </Text>
       </Container>
     </div>
@@ -21,14 +21,13 @@ export const Tech = () => {
 const Container = styled.section`
   background: #000;
   color: #ffffff;
-  width: 343px;
+  width: 100%;
   height: 460px;
   margin: auto;
   display: grid;
   place-items: center;
 
   @media (min-width: 668px) {
-    width: 744px;
     height: 627px;
     margin-bottom: 100px;
   }
