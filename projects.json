@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "The solar system travel guide",
-      "text": "As a three-member team at the Technigo Web Developer Bootcamp, we created an expandable application with a robust backend and structured API. Using NPM packages and React Hooks, we implemented dynamic features and optimized functionality. Our design prioritizes readability and accessibility through thoughtful color choices and user-focused interactions. The app supports keyboard navigation and includes engaging features to spark curiosity and enhance the user experience.",
+      "text": "As a three-member team at the Technigo Web Developer Bootcamp, we created a scalable application with a robust backend and structured API. Using NPM packages and React Hooks, we implemented dynamic features and optimized functionality. Our design prioritizes readability and accessibility through thoughtful color choices and user-focused interactions. The app supports keyboard navigation and includes engaging features to spark curiosity and enhance the user experience.",
       "image": "./solar-system.png",
       "tags": [
         "React",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Happy Thoughts - a Post & Fetch comment feed",
-      "text": "In this comment feed project, I implemented the useEffect hook in React to manage component lifecycles and handle side effects. I worked with APIs to fetch and post data, ensuring seamless data interaction. I also used Postman to test and validate API endpoints during development.",
+      "text": "In this frontend project, I implemented the useEffect hook in React to manage component lifecycles and handle side effects. I worked with an API to fetch and post data, ensuring seamless data interaction. I used Postman to test and validate API endpoints during development.",
       "image": "./happy-thoughts-api.png",
       "tags": ["React", "HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "https://taupe-malabi-4096a4.netlify.app/",
@@ -81,7 +81,7 @@
       "github": "https://github.com/Xikitita/project-design-handoff-vite"
     },
     {
-      "name": "Multi-page Movie site",
+      "name": "React Router Movie site",
       "text": "A pair project where we built a multi-page site using React Router to fetch a list of movies from an API and display them in the UI. The site allows users to navigate between pages and view movie details dynamically.",
       "image": "./movies-site.png",
       "tags": ["React", "React Router", "HTML5", "CSS3", "JavaScript", "APIs"],
