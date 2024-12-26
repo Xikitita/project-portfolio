@@ -73,14 +73,6 @@
       "github": "https://github.com/Xikitita/project-todos-context-vite"
     },
     {
-      "name": "Design handoff - a collaboration project with a UX designer student",
-      "text": "Working as a two-member team, we collaborated with a UX designer to implement a design handoff. We transformed her design into a functional, responsive interface using a CSS library to streamline styling and ensure consistency.",
-      "image": "./design-handoff.png",
-      "tags": ["React", "Styled-Components", "HTML5", "CSS3", "JavaScript"],
-      "netlify": "https://monumental-banoffee-da2acb.netlify.app/",
-      "github": "https://github.com/Xikitita/project-design-handoff-vite"
-    },
-    {
       "name": "React Router Movie site",
       "text": "A pair project where we built a multi-page site using React Router to fetch a list of movies from an API and display them in the UI. The site allows users to navigate between pages and view movie details dynamically.",
       "image": "./movies-site.png",
@@ -95,31 +87,6 @@
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "https://idyllic-maamoul-97c14d.netlify.app/",
       "github": "https://github.com/Xikitita/project-weather-app"
-    },
-
-    {
-      "name": "Chatbot",
-      "text": "This is a chatbot interface using JavaScript. The chatbot interacts with users by asking questions, displaying messages, and responding accurately.",
-      "image": "./chatbot.png",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "https://soft-puppy-7282f0.netlify.app/",
-      "github": "https://github.com/Xikitita/project-chatbot"
-    },
-    {
-      "name": "JavaScript Pizzeria",
-      "text": "A simple interactive page to place a food order, focusing on mastering core JavaScript concepts like variables, conditionals, and native methods.",
-      "image": "./js-pizzeria.png",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "https://astonishing-fairy-8757c0.netlify.app/",
-      "github": "https://github.com/Xikitita/project-pizza"
-    },
-    {
-      "name": "My React Portfolio project",
-      "text": "This component-based portfolio is built as a web application. The user interface is styled with CSS-in-JS through Styled Components, with scalability and maintainability in mind.",
-      "image": "./portfolio.png",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "Styled Components"],
-      "netlify": "https://alexandra-franzen-portfolio.netlify.app/",
-      "github": "https://github.com/Xikitita/project-portfolio"
     }
   ]
 }

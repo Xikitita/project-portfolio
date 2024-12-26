@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import profileImg from "../assets/demo-profile-pic.jpg";
+import profileImg from "../assets/profile-pic.jpg";
 import github from "../assets/footer-btn-github.png";
 import linkedIn from "../assets/footer-btn-linkedin.png";
 
@@ -54,6 +54,7 @@ const ProfileImg = styled.img`
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  object-fit: cover;
 `;
 
 const Heading1 = styled.h1`

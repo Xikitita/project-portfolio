@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import profileImg from "../assets/demo-profile-pic.jpg";
+import profileImg from "../assets/profile-pic.jpg";
 
 export const Introduction = () => {
   return (
@@ -46,6 +46,7 @@ const ProfileImg = styled.img`
   height: 150px;
   border-radius: 50%;
   margin: auto;
+  object-fit: cover;
 
   @media (min-width: 668px) {
     display: grid;

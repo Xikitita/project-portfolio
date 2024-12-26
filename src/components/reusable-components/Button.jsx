@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import livedemo from "../../assets/Live-Demo.png";
-import viewcode from "../../assets/View-Code.png";
+import livedemo from "../../assets/live-demo.png";
+import viewcode from "../../assets/view-code.png";
 
 export const Button = ({ netlifyLink, githubLink }) => {
   return (

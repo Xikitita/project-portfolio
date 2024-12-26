@@ -72,7 +72,7 @@ const Img = styled.img`
   height: 300px;
   object-fit: cover;
   object-position: top;
-  margin-left: 16px;
+  margin: auto;
 `;
 
 const Title = styled.h3`
