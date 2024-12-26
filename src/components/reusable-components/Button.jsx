@@ -45,13 +45,13 @@ const StyledLink = styled.a`
   text-decoration: none;
 
   img {
-    max-width: 100%; /* Ensure the images scale properly */
+    max-width: 100%;
     height: auto;
     border-radius: 4px;
 
     &:focus {
-      outline: 2px solid #005fcc; /* Visible focus indicator */
-      border-radius: 12px; /* Matches visual design */
+      outline: 2px solid #005fcc;
+      border-radius: 12px;
     }
   }
 `;
