@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import profileImg from "../assets/profile-pic.jpg";
+import github from "../assets/footer-btn-github.png";
+import linkedIn from "../assets/footer-btn-linkedin.png";
 
 export const Introduction = () => {
   return (
@@ -13,6 +15,20 @@ export const Introduction = () => {
           A team player with a positive mindset, a problem-solving approach and
           a passion for learning. I enjoy exploring new technologies and
           contributing to collaborative projects.
+          <ImgSection>
+            <a
+              href="https://www.linkedin.com/in/alexandra-franz%C3%A9n-b9121b2b1/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={linkedIn} alt="LinkedIn Profile" />
+            </a>
+            <a
+              href="https://github.com/Xikitita"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={github} alt="GitHub Profile" />
+            </a>
+          </ImgSection>
         </Text>
       </TopSection>
     </>
@@ -109,4 +125,10 @@ const Text = styled.p`
     height: 145px;
     padding-left: 180px;
   }
+`;
+
+const ImgSection = styled.section`
+  display: flex;
+  justify-content: left;
+  margin-top: 16px;
 `;

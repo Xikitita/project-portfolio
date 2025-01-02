@@ -98,4 +98,5 @@ const ImgSection = styled.section`
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 16px;
 `;

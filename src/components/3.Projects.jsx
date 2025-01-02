@@ -73,6 +73,10 @@ const Img = styled.img`
   object-fit: cover;
   object-position: top;
   margin: auto;
+
+  @media (min-width: 668px) {
+  margin-left: 16px;
+  }
 `;
 
 const Title = styled.h3`
